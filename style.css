@@ -17,7 +17,6 @@ body{
 }
 .display{
     width: 90%;
-    
     margin-bottom: 2vw;
     height:4vw;
     background-color: black;
@@ -100,4 +99,12 @@ header{
 }
 .cal_button:active,.number:active,.ac:active,.operations:active{
     opacity: 0.5;
+}
+.display{
+    margin-top: 1vw;
+    display: block;
+    font-size: 3.8vw;
+    color: #C6B79B;
+    text-align: right;
+
 }
