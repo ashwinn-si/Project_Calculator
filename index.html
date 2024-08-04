@@ -3,43 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcutor</title>
-    <link rel="stylesheet" href="style.css">
+    <title>CALCULATOR</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <p>CALCULATOR</p>
-    </header>
-    <main><div class="container">
-        <div class="sub_container">
-            
-                <p class="display"></p>
-            
-            
-            <div class="buttons">
-                <div>
-                    <div class="div1"><button class="number" >1</button></div>
-                    <div class="div2"><button class="number">2</button></div>
-                    <div class="div3"><button class="number">3</button></div>
-                    <div class="div4"><button class="operations">+</button></div>
-                    <div class="div5"><button class="number">4</button></div>
-                    <div class="div6"><button class="number">5</button></div>
-                    <div class="div7"><button class="number">6</button></div>
-                    <div class="div8"><button class="operations">-</button></div>
-                    <div class="div9"><button class="number">7</button></div>
-                    <div class="div10"><button class="number">8</button></div>
-                    <div class="div11"><button class="number">9</button></div>
-                    <div class="div12"><button class="operations">*</button></div>
-                    <div class="div13"><button class="ac" onclick="reset()">AC</button></div>
-                    <div class="div14"><button class="cal_button" onclick="calculate()">Calculate</button></div>
-                    <div class="div15"><button class="operations">/</button></div>
-                
-
+    <p class="header">CALCULATOR</p>
+    <div class="container">
+        <div class="displayer_container">
+            <div class="displayer"><p id="screen">WELCOME</p></div>
+            <p id="clear_button">Clear</p>
+        </div>
+        <div class="buttons_container">
+            <div class="numbers_container">
+                    <div class="div1" id="7">7</div>
+                    <div class="div2" id="8">8</div>
+                    <div class="div3" id="9">9</div>
+                    <div class="div4" id="4">4</div>
+                    <div class="div5" id="5">5</div>
+                    <div class="div6" id="6">6</div>
+                    <div class="div7" id="1">1</div>
+                    <div class="div8" id="2">2</div>
+                    <div class="div9" id="3">3</div>
+                    <div class="div10" id="0">0</div>
+                    <div class="div11" id="point">.</div>
+                    <div class="div12" id="equal_to">=</div>
+            </div>
+            <div class="operations_container">
+                <div class="div20" id="divide">÷</div>
+                <div class="div21" id="multiply">×</div>
+                <div class="div22" id="sub">-</div>
+                <div class="div23" id="add">+</div>
             </div>
         </div>
-    </div></main>
+    </div>
     <script src="index.js"></script>
-    
-    
 </body>
 </html>
